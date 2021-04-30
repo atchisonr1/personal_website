@@ -1,0 +1,40 @@
+* {
+    font-family: 'Baloo 2', cursive;
+}
+
+body, footer {
+     background:#86A1DF;
+ }
+ 
+ h1 {
+     text-align:center;
+ }
+
+ h2, p {
+     background-color:#E88745;
+ }
+
+ p, ul, ol {
+     text-align:left;
+ }
+ 
+ .flexbox{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+
+@media(max-width:750px){
+    .flexbox{
+        flex-direction:column;
+    }
+}
+
+.flexbox > div{
+    text-align:center;
+    border:5px solid black;
+    padding:10px;
+    width:300px;
+    margin:5px;
+    background-color:#E88745;
+}
